@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function productCard({ product, onEdit, onDelete }) {
+export default function ProductCard({ product, onEdit, onDelete }) {
   return (
     <div className="border rounded-lg p-4 shadow-sm">
       <img
