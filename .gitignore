@@ -1,0 +1,47 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependency directories
+node_modules/
+my-react-app/node_modules/
+Backend/node_modules/
+
+# Build output
+dist/
+my-react-app/dist/
+Backend/dist/
+dist-ssr/
+*.local
+
+# Environment variables
+.env
+.env.*
+!env.example
+
+# Runtime data
+tmp/
+temp/
+*.pid
+*.seed
+*.pid.lock
+
+# IDE & OS Files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Coverage & test output
+coverage/
+*.lcov
