@@ -7,22 +7,8 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-# Dependency directories
-node_modules/
-my-react-app/node_modules/
-Backend/node_modules/
 
-# Build output
-dist/
-my-react-app/dist/
-Backend/dist/
-dist-ssr/
-*.local
 
-# Environment variables
-.env
-.env.*
-!env.example
 
 # Runtime data
 tmp/
@@ -35,6 +21,16 @@ temp/
 .vscode/*
 !.vscode/extensions.json
 .idea/
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
 .DS_Store
 *.suo
 *.ntvs*
@@ -42,6 +38,9 @@ temp/
 *.sln
 *.sw?
 
+
 # Coverage & test output
 coverage/
 *.lcov
+
+
